@@ -1,0 +1,13 @@
+https://replit.com/@SamanthaGrijalv/retosalimentospy?v=1
+
+print("Calculemos si tu alimento es bajo o alto en grasa y azucar:")
+grasa=int(input("dame la cantidad de grasa por porcion:"))
+azucar=int(input("dame la cantidad de azucar por porcion:"))
+sodio=int(input("dame la cantidad de sodio por porcion:"))
+
+if grasa<=5 and azucar>=10:
+  print("tu alimento es bajo en grasa y azucar")
+elif sodio<=100:
+  print("tu alimento es bajo en sodio")
+else:
+  print("considera las advertencias nutricionales")
